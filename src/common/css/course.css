@@ -1,0 +1,81 @@
+@font-face {
+    font-family: fzlt;
+    src: url("../font/fzltxh.TTF");
+   }
+.class_box {
+  background: #3189ce url('../images/class_bg.jpg') no-repeat 0 0 / 100% 100%;
+  overflow: hidden;
+  padding: 0 0.26666667rem;
+  height: 100%;
+}
+.class_box h2 {
+  width: 3.78666667rem;
+  height: 1.01333333rem;
+  margin: 0.66666667rem auto 0.82666667rem;
+}
+.class_box h2 span {
+    text-align: center;
+    color:white;
+    font: bold 0.8rem fzlt
+}
+.timetable {
+  width: 100%;
+  color: #3a3a3a;
+  font: 0.34666667rem fzlt;
+}
+.timetable thead {
+  background: rgba(206, 115, 175, 0.5);
+  color: #fff;
+  font: 0.32rem fzlt;
+}
+.timetable thead th {
+  height: 0.69333333rem;
+}
+.timetable thead th:nth-of-type(1) {
+  width: 1.85333333rem;
+}
+.timetable thead th:nth-of-type(2) {
+  width: 2.61333333rem;
+}
+.timetable thead th:nth-of-type(3) {
+  width: 5.05333333rem;
+}
+.timetable tbody {
+  background: #fff;
+}
+.timetable td {
+  border: 2px solid #ce73af;
+}
+.timetable td[rowspan="2"] {
+  height: 1.54666667rem;
+  text-align: center;
+  overflow: hidden;
+}
+.timetable .single td:nth-of-type(1) {
+  height: 0.88rem;
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+.content_td {
+  text-indent: 0.76rem;
+  height: 0.8rem;
+}
+.more_message {
+  text-align: center;
+  padding-top: 0.09333333rem;
+  font: 0.34666667rem / 1.42666667rem fzlt;
+  color: #fff;
+}
+.more_message span {
+  display: inline-block;
+  width: 3.86666667rem;
+  background: #fff;
+  color: #2f88cd;
+  font-size: 0.4rem;
+  line-height: 0.66666667rem;
+  border-radius: 0.4rem;
+  vertical-align: top;
+  margin-top: 0.36rem;
+}
