@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80191119.chunk.css",
+    "main.js": "/static/js/main.a54a6371.chunk.js",
+    "main.js.map": "/static/js/main.a54a6371.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a9c8dd3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a9c8dd3.js.map",
+    "static/js/2.053b0c3f.chunk.js": "/static/js/2.053b0c3f.chunk.js",
+    "static/js/2.053b0c3f.chunk.js.map": "/static/js/2.053b0c3f.chunk.js.map",
+    "static/js/3.3c3d8230.chunk.js": "/static/js/3.3c3d8230.chunk.js",
+    "static/js/3.3c3d8230.chunk.js.map": "/static/js/3.3c3d8230.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.80191119.chunk.css.map": "/static/css/main.80191119.chunk.css.map",
+    "static/js/2.053b0c3f.chunk.js.LICENSE.txt": "/static/js/2.053b0c3f.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/static/media/iconfont.e39422b0.svg",
+    "static/media/index.css": "/static/media/once.4bc9bf2d.png",
+    "static/media/course.css": "/static/media/fzltxh.e0bc9b3a.TTF",
+    "static/media/img1.ff1de870.jpeg": "/static/media/img1.ff1de870.jpeg",
+    "static/media/img2.a9c9d957.jpeg": "/static/media/img2.a9c9d957.jpeg",
+    "static/media/img3.a5876ff0.jpeg": "/static/media/img3.a5876ff0.jpeg",
+    "static/media/img4.d6b056cd.jpeg": "/static/media/img4.d6b056cd.jpeg",
+    "static/media/login.css": "/static/media/login_bg.894c9cd6.jpg",
+    "static/media/common.css": "/static/media/menu.5a6f9b4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a9c8dd3.js",
+    "static/js/2.053b0c3f.chunk.js",
+    "static/css/main.80191119.chunk.css",
+    "static/js/main.a54a6371.chunk.js"
+  ]
+}
