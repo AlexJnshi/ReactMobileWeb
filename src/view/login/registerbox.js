@@ -72,7 +72,6 @@ function RegisterBox(props) {
 
         })
     }
-    let point = {};
 
     return (
         <div className="register_box">
@@ -159,21 +158,11 @@ function RegisterBox(props) {
                             className="verify"
                             src={vcodeSrc}
                             alt="verify code"
-                            onTouchStart={(e) => {
-                                let touch = e.changedTouches[0];
-                                point.x = touch.pageX;
-                                point.y = touch.pageY;
+                            onClick={() => {
+                                setVcodeSrc("https://data.miaov.com/user/verify?" + Date.now())  
                             }}
-                            onTouchEnd={(e) => {
-                                let touch = e.changedTouches[0];
-                                let nowPoint = {
-                                    x: touch.pageX,
-                                    y: touch.pageY
-                                };
-                                if (Math.abs(nowPoint.x - point.x) < 5
-                                    && Math.abs(nowPoint.y - point.y) < 5) {
-                                    setVcodeSrc("https://data.miaov.com/user/verify?" + Date.now())
-                                }
+                            onTouchEnd={() => {
+                               setVcodeSrc("https://data.miaov.com/user/verify?" + Date.now()) 
                             }} /> : ""}
 
                 </p>

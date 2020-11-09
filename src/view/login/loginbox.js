@@ -119,6 +119,9 @@ function LoginBox(props) {
                             onClick={() => {
                                 setVerifyCodeSrc("https://data.miaov.com/user/verify?" + Date.now())
                             }}
+                            onTouchStart={() => {
+                                setVerifyCodeSrc("https://data.miaov.com/user/verify?" + Date.now())
+                            }}
                         />
                         : ""}
 
