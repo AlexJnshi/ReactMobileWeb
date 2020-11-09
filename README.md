@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# About this React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is used for online learning purposes like udemy, it contains 3 sections: home page, login&register page, and static courses page.
 
-## Available Scripts
+>Watch the video demo on [Youtube](https://youtu.be/yJJknFGt14A)
 
-In the project directory, you can run:
+## Home page
 
-### `yarn start`
+The right top corner icon will change depends on your login state, it will show your user name when you login.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In this page, it mainly contain 3 parts: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Slides
+*There are 4 slides in the banner auto-played. This function is mainly implemented using [bettescroll](https://github.com/ustbhuangyi/better-scroll)*
 
-### `yarn test`
+### Static components 
+*Demonstrate course promo information*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Student works
+*Use the Miaov open API (https://data.miaov.com) to obtain data, use axios, redux-thunk middleware to obtain student work data, and implement the slide-up loading more function*
 
-### `yarn build`
+I have attached [API documentation](https://github.com/AlexJnshi/ReactMobileWeb/blob/master/react%20project%20API.txt) in this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Login&register page
+I was tring to use proxy server to solve CROS issue but got a problem which i think the back-end did not set CROS configuration，so I made some changes, the login and register form will let you log in or register whatever you entered, I just did a basic check for entered info in front-end.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The right top corner button in header will change depends on Browser path, when path equals login it will show back button that will take you back to where you came from based on router history.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Static courses page
+This is the courses timetable with website footer and copyright at the bottom
