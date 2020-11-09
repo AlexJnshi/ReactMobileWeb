@@ -26,5 +26,5 @@ I was tring to use proxy server to solve CROS issue but got a problem which i th
 
 The right top corner button in header will change depends on Browser path, when path equals login it will show back button that will take you back to where you came from based on router history.
 
-### Static courses page
+## Static courses page
 This is the courses timetable with website footer and copyright at the bottom
