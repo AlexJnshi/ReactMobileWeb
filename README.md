@@ -22,7 +22,7 @@ In this page, it mainly contain 3 parts:
 I have attached [API documentation](https://github.com/AlexJnshi/ReactMobileWeb/blob/master/react%20project%20API.txt) in this project
 
 ## Login&register page
-I was tring to use proxy server to solve CROS issue but got a problem which i think the back-end did not set CROS configuration，so I made some changes, the login and register form will let you log in or register whatever you entered, I just did a basic check for entered info in front-end.
+I was tring to use proxy server to solve CROS issue but got a problem which I did not solved yet，so I made some changes, the login and register form will let you log in or register whatever you entered, I just did a basic check for entered info in front-end.
 
 The right top corner button in header will change depends on Browser path, when path equals login it will show back button that will take you back to where you came from based on router history.
 

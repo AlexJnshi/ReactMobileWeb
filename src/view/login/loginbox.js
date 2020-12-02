@@ -10,7 +10,7 @@ function LoginBox(props) {
     const [password, setPassword] = useState("")
     const [verifyCode, setVerifyCode] = useState("")
     const [verifyCodeShow, setVerifyCodeShow] = useState(false)
-    /***** add Data.now() to provent cache *****/
+    /***** add Data.now() to avoid cache *****/
     const [verifyCodeSrc, setVerifyCodeSrc] = useState("https://data.miaov.com/user/verify?" + Date.now())
     const back = useBack(props.history);
     const { setDeg } = props;
