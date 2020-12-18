@@ -1,6 +1,7 @@
 {
   "name": "react-project",
-  "homepage": ".",
+  "homepage": "https://alexjnshi.github.io/ReactMobileWeb",
+  "author": "Alex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is used for online learning purposes like udemy, it contains 3 sections: home page, login&register page, and static courses page.
 
->Watch the video demo on [Youtube](https://youtu.be/yJJknFGt14A)
+## Online demo
+Please using mobile simulate across the browser, or simplly using mobile to access, Click [here](https://alexjnshi.github.io/ReactMobileWeb/)
 
 ## Home page
 
