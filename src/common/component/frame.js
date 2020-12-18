@@ -8,6 +8,7 @@ import '../css/common.css'
 import '../css/login.css'
 
 export default function Frame(props) {
+    console.log(props)
     const [showMenu, setShowMenu] = useState(false);
     const innerHeight = useInnerHeight();
     const wrap = useRef(null);
